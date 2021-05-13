@@ -1,5 +1,6 @@
 :root {
   font: 16px / 1 sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html {
@@ -9,4 +10,73 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(221, 239, 255);
+}
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  color: rgb(66, 75, 83);
+  text-align: center;
+  font-size: 350%;
+  padding: 0%;
+  margin-top: 1.2%;
+  margin-bottom: 0.1%;
+}
+h2,
+h3 {
+  color: rgb(66, 75, 83);
+}
+h3 {
+  margin-top: 3px;
+}
+p {
+  font-size: large;
+}
+.banner {
+  list-style: none;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: flex-start;
+}
+ol {
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  background-color: rgb(92, 196, 228);
+  color: white;
+  padding: 1%;
+}
+.bottom {
+  background-color: rgb(206, 201, 201);
+  padding: 1.5%;
+  display: flex;
+  align-items: flex-end;
+}
+.names {
+  list-style: disc;
+}
+.verticalspace {
+  margin-bottom: 3%;
+}
+.gap {
+  padding-bottom: 15%;
+}
+.horizontalspace {
+  margin-right: 2%;
+}
+.border {
+  border: 1px solid rgb(92, 196, 228);
+  padding: 10px;
+}
+.marginleft {
+  margin-left: 2em;
+  margin-right: 2em;
 }
